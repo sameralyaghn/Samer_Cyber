@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // THIS is the key
-
+  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -10,4 +9,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
