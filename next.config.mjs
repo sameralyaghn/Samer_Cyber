@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // THIS is the key
+
   typescript: {
     ignoreBuildErrors: true,
   },
